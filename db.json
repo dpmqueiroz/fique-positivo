@@ -1,0 +1,234 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Júlio Sousa Aguiar",
+      "RendaMensal": 6500,
+      "profissao": "Desenvolvedor de Software"
+    },
+    {
+      "id": 2,
+      "nome": "Teresa Francisca Mendes",
+      "RendaMensal": 2500,
+      "profissao": "Secretária"
+    },
+    {
+      "id": 3,
+      "nome": "Robervaldo Feller Washington",
+      "RendaMensal": 18300,
+      "profissao": "Empresário"
+    },
+    {
+      "id": 4,
+      "nome": "Pericles Oliveira Tavares",
+      "RendaMensal": 1500,
+      "profissao": "Uber"
+    },
+    {
+      "id": 5,
+      "nome": "Paulo Gomes",
+      "RendaMensal": 10500,
+      "profissao": "Caminhoneiro"
+    }
+  ],
+  "gastos": [
+    {
+      "id": 1,
+      "data": "22/12/2023",
+      "descricao": "Aluguel",
+      "valor": 700,
+      "necessidade": true,
+      "local": "Aluguel Residencial",
+      "formaPagamento": "pix",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 2,
+      "data": "25/12/2023",
+      "descricao": "Internet",
+      "valor": 100,
+      "necessidade": true,
+      "local": "Internet Residencial",
+      "formaPagamento": "boleto",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 3,
+      "data": "28/12/2023",
+      "descricao": "Jantar com a esposa",
+      "valor": 350,
+      "necessidade": false,
+      "local": "Restaurante",
+      "formaPagamento": "Cartão de Crédito",
+      "categoria": "esporádico",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 4,
+      "data": "10/12/2023",
+      "descricao": "Investimento",
+      "valor": 1200,
+      "necessidade": true,
+      "local": "Bolsa de valores",
+      "formaPagamento": "pix",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 5,
+      "data": "12/12/2023",
+      "descricao": "Lazer com jogos Eletrônicos",
+      "valor": 120,
+      "necessidade": false,
+      "local": "Compra Online",
+      "formaPagamento": "Cartão de Crédito",
+      "categoria": "esporádico",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 6,
+      "data": "15/12/2023",
+      "descricao": "Presente de natal para Família",
+      "valor": 450,
+      "necessidade": false,
+      "local": "Compra Online",
+      "formaPagamento": "Cartão de Crédito",
+      "categoria": "esporádico",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 7,
+      "data": "20/12/2023",
+      "descricao": "Parcela do Carro",
+      "valor": 998,
+      "necessidade": true,
+      "local": "",
+      "formaPagamento": "boleto",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 5,
+        "nome": "Paulo Gomes",
+        "RendaMensal": 10500,
+        "profissao": "Caminhoneiro"
+      }
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10,
+      "data": "14/12/2023",
+      "descricao": "Compras para ceia de natal",
+      "valor": 140,
+      "necessidade": false,
+      "local": "casa",
+      "formaPagamento": "Cartão de Crédito",
+      "categoria": "esporádico",
+      "pessoa": {
+        "id": 2,
+        "nome": "Teresa Francisca Mendes",
+        "RendaMensal": 2500,
+        "profissao": "Secretária"
+      }
+    },
+    {
+      "id": 11,
+      "data": "23/12/2023",
+      "descricao": "Escola do filho",
+      "valor": 350.98,
+      "necessidade": true,
+      "local": "escola",
+      "formaPagamento": "Cartão de Crédito",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 2,
+        "nome": "Teresa Francisca Mendes",
+        "RendaMensal": 2500,
+        "profissao": "Secretária"
+      }
+    },
+    {
+      "id": 12,
+      "data": "17/12/2023",
+      "descricao": "Energia",
+      "valor": 100,
+      "necessidade": true,
+      "local": "",
+      "formaPagamento": "boleto",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 2,
+        "nome": "Teresa Francisca Mendes",
+        "RendaMensal": 2500,
+        "profissao": "Secretária"
+      }
+    },
+    {
+      "id": 13,
+      "data": "06/12/2023",
+      "descricao": "Agua",
+      "valor": 78,
+      "necessidade": true,
+      "local": "",
+      "formaPagamento": "boleto",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 2,
+        "nome": "Teresa Francisca Mendes",
+        "RendaMensal": 2500,
+        "profissao": "Secretária"
+      }
+    },
+    {
+      "id": 14,
+      "data": "08/12/2023",
+      "descricao": "Faculdade",
+      "valor": 298,
+      "necessidade": true,
+      "local": "Faculdade",
+      "formaPagamento": "boleto",
+      "categoria": "fixo",
+      "pessoa": {
+        "id": 2,
+        "nome": "Teresa Francisca Mendes",
+        "RendaMensal": 2500,
+        "profissao": "Secretária"
+      }
+    }
+  ]
+}
